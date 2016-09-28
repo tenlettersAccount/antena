@@ -1,0 +1,547 @@
+  /*==========  Mobile First Method  ==========*/
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+
+
+@media only screen and (max-width : 1200px) {
+    .shopping span img{
+        width: 16px;
+    }
+    .answers span img{
+        width: 20px;
+    }
+    .answers span img{
+        width: 20px;
+    }
+    .call span img{
+        width: 14px;
+    }
+    .footer-menu {
+        max-width: 100%;
+        height: 140px;
+        background-color: #ffffff;
+        margin-left: 0px;
+        top: 10px; 
+        position: relative;
+        padding: 10px 5px;
+    }
+    .bodycontent{
+        width: 100%;
+        height: auto;
+        margin-left: 0px; 
+        padding-top: 111px;
+
+    }
+    .top-menu{
+        padding: 10px;
+        max-height: 111px;
+    }
+    .fright{
+        position: relative;
+        top: -91px;
+        left: 50%;
+        width: 100%;
+    }
+    
+    .freecall{
+        display: none;
+    }
+    .logo{
+        display: none !important;
+    }
+    .search-container{
+        display: none !important;
+    }
+    .top-menu ul li{
+        display: block;
+    }
+    .shopping{
+        margin-right: 0px;
+    }
+    .mmenu{
+        display: block !important;
+    }
+    /* end top menu*/
+
+    /* start left menu*/
+    .left-menu{
+        position: fixed;
+        top: 0;
+        left: -160px;
+        width: 160px;
+        height: 100%;
+        z-index: 99;
+        background-color: #c84b4f;
+        padding-top: 110px;
+
+    }
+    .mlevel2{
+    width: 100%;
+        height: auto;
+    }
+    .shares{
+    width: 220px;
+    height: 400px;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #ffffff, #fcfbf9);
+    margin-left: auto;
+    display: block;
+    margin: 0 auto;
+    }
+    .inblock3{
+        width: 100%;
+        display: block;
+        vertical-align: top;
+    }
+    .mlevel2 .carousel-control.left {
+        left: 5px;
+    }
+    .mlevel2 .carousel-control.right {
+        right: 5px;
+    }
+    .wzen_popup_nav{
+        padding-top: 111px;
+    }
+    .zen_popup_nav{
+        padding-top: 111px;
+    }
+    .wclose{
+        top: 129px;
+    }
+    .pclose{
+        top: 129px;
+    }
+    .sel_call_timer{
+        padding: 20px;
+        padding-top: 50px;
+    }
+    .sel_call_timer2{
+        padding: 20px;
+        padding-top: 20px;
+    }
+    .sel_call_timer3{
+        padding: 20px;
+        padding-top: 50px;
+    }
+
+    
+    
+}
+@media only screen and (max-width : 990px) {
+    .alevel1{
+        padding: 10px 20px;
+    }
+    .selengalogo2 img {
+        top: 0px;
+        width: auto;
+    }
+    .inblock{
+        width: 48%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .inblock2{
+        width: 48%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .incenter p{
+        text-align: left;
+    }
+    .incenter img{
+        display: inline-block;
+        margin: auto;
+    }
+    .incenter a{
+        width: 100%;
+        display: ;
+        margin: auto;
+    }
+    .mainlelel1 {
+        background-image: none;
+        background-size: cover;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .mlevel11{
+        margin-top: 50px;
+    }
+    .footer-menu {
+        max-width: 100%;
+        height: 140px;
+        background-color: #ffffff;
+        margin-left: 0px;
+        top: 10px; 
+        position: relative;
+        padding: 10px 5px;
+    }
+    .mfright{
+        float: none;
+    }
+    .inout{
+        padding: 0;
+    }
+    .mainlelel1 h1{
+        font-size: 23px;
+    }
+    .mlevel3 h1{
+        font-size: 20px;
+    }
+    .alevelright{
+        width: 100%;
+        float: none;
+    }
+    .alevelleft{
+        width: 100%;
+        float: none;
+    }
+    .alevelright h1{
+        margin-top: 20px;
+    }
+    .alevelleft img{
+        position: relative;
+        top: 30px;
+        width: 269px;
+        height: 350px;
+        display: block;
+        margin: 0 auto;
+    }
+    .alevel3{
+        width: 100%;
+        height: auto;
+        background-color: #f5f5f0;
+        padding: 0px 20px 50px 20px;
+    }
+    .dctext{
+        width: 90%;
+    }
+
+}
+@media only screen and (max-width : 768px) {
+    .dlevel1{
+        padding: 10px;
+    }
+    .slavel1{
+        padding: 10px;
+    }
+    .plevel1{
+        padding: 30px 10px 20px;
+    }
+    .plevel1 h2{
+        font-size: 19px;
+    }
+    .fleft{
+        float: none;
+        width: 100%;
+    }
+    .ffright{
+        width: 100%;
+        float: none;
+    }
+    .plevel12  p{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width : 600px) {
+    .ppopup .numberpm input{
+        width: 35px;
+        height: 26px;
+    }
+    .ppopup .numberpm .nbutton {
+        width: 26px;
+        height: 26px;
+    }
+    .overhidden{
+        width: auto;
+    }
+    .mlelev3menu ul{
+        background-color: #f5f5f0;
+        padding:0px 10px 0px 10px !important;
+
+    }
+    .slevel11{
+        width: 80%;
+    }
+    
+    .dleft{
+        margin-top: 40px;
+        position: relative;
+        width: 100%;
+        float: left;
+    }
+    .dright{
+        margin-top: 40px;
+        position: relative;
+        width: 100%;
+        float: left;
+    }
+    .dlevel1  p{
+        max-width: 90%;
+    }
+    .wzen_popup_nav{
+        width: 280px;
+    }
+    .ovh{
+        width: auto;
+    }
+    .wclose{
+        right: 280px;
+    }
+    .tovary1{
+        width: auto;
+    }
+    .relfullh{
+        padding: 10px;
+    }
+    .tovary21 {
+        float: none;
+        width: auto;
+    }
+    .kolichestvo1{
+        width: 65%;
+    }
+    .sena1{
+        width: auto;
+    }
+    .owiru1{
+        margin-left: 15px;
+    }
+    .undergood{
+        padding: 5px;
+    }
+        
+    .utext{
+        width: 55%;
+        font-size: 10px;
+    }
+    .uprice{
+        font-size: 10px;
+    }
+    .fastorder h3{
+        font-size: 18px;
+    }
+    .fastorder input{
+        width: 100%;
+    }
+    .fastorder button{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .wdecor h2{
+        font-size: 18px;
+    }
+    .halfp{
+        width: 100%;
+    }
+    .quater{
+        width: 49%;
+    }
+    .wfully input{
+        width: 100%;
+    }
+    .orderwf{
+            padding: 7px 15px;
+    }
+    .zen_popup_nav{
+        width: 280px;
+    }
+    .pclose{
+        right: 280px;
+    }
+    .answerform{
+        padding: 15px 20px;
+    }
+    .quater input{
+        width: 100%;
+    }
+    .alevel1 h2{
+        font-size: 25px;
+    }
+    .alevel1r p{
+        font-size: 13px;
+    }
+
+    .alevel2{
+        padding: 20px;
+    }
+    .alevel11 p{
+        font-size: 13px;
+    }
+    .imgalevel2{
+        float: none;
+    }
+    .alevel11 h3{
+        margin-top: 15px;
+    }
+    .slavel1{
+        padding: 10px;
+    }
+    .wdecor{
+        padding: 10px;
+    }
+    .decor3head{
+        padding: 10px;
+        height: 190px;
+    }
+    .dbody3{
+        margin-top: -100px;
+    }
+    .strelakalar{
+        width: 31px;
+        height: 31px;
+        padding: 9px;
+    }
+    .decor3head h1{
+        font-size: 15px;
+        width: 60%;
+    }
+    .dbody3 #carousel-custom .carousel-indicators li img{
+        width: 60px;
+        height: 40px;
+    }
+    .dbody3 item img{
+        height: 177px;
+    }
+    .dbody3 iframe{
+        height: 177px;
+    }
+    .dbody3{
+        padding: 0 10px;
+    }
+    .dbody3 .carousel-inner{
+        height: 175px;
+    }
+    
+    .d3body3{
+        padding: 10px;
+    }
+    .shoppopup {
+        padding: 7px 5px;
+        position: relative;
+        top: 21px;
+        font-size: 10px;
+    }
+    .redh1p{
+        font-size: 18px;
+    }
+    .nbutton{
+        height: 23px;
+        width: 23px;
+    }
+    .numberpm input{
+        height: 23px;
+        width: 35px;
+    }
+    .icons2 .fa{
+        margin-left: 0;
+        margin-right: 6px;
+    }
+    .comm{
+        font-size: 18px;
+    }
+    .razmestit{
+        float: none;
+    }
+    .personaltext{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .dbody5{
+        padding: 10px;
+    }
+    .personaltext h3{
+        margin-top: 10px;
+    }
+    .sel_call_timer2 p{
+        width: 90%;
+    }
+    .sel_call_timer3 p{
+        width: 90%;
+    }
+    .marina_img center{
+        padding: 15px 30px 30px;
+    }
+    .marina_img h3{
+        margin-top: auto;
+    }
+    .lemonline{
+        margin-top: 50px;
+    }
+    
+}
+@media only screen and (max-width : 426px) {
+    
+    .ffright a{
+        font-size: 12px;
+    }
+    .selengalogo2 img {
+        top: 0px;
+        width: 100%;
+    }
+    .inblock{
+        width: 100%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .inblock2{
+        width: 100%;
+        display: inline-block;
+        vertical-align: top;
+        min-height: 200px;
+    }
+    .maptable{
+        width: 90%;
+        margin-top: 24px;
+    }
+    .mapleft{
+        float: none;
+        width: 100%;
+        position: relative;
+    }
+    .mapright{
+        float: none;
+        position: relative;
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+    .plevel12  p{
+        width: 90%;
+    }
+    
+    .alevelleft img{
+        width: 200px;
+        height: auto;
+    }
+    .alevelright h1{
+        font-size: 25px;
+    }
+    .alevelright  p{
+        font-size: 13px;
+    }
+    .headh1{
+        font-size: 25px;
+    }
+    .dlevel1 h3{
+        font-size: 20px;
+    }
+    .dctext{
+        font-size: 13px;
+    }
+    .dlevel1 h4{
+        font-size: 22px;
+    }
+    .slavel1{
+        padding: 10px;
+    }
+    
+}
