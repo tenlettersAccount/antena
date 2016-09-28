@@ -1,109 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="google-site-verification" content="@yield('google')" />
-   
-   
-   
+    <meta name="google-site-verification" content="@yield('google')" />
     <meta name="MobileOptimized" content="width">
     <meta name="HandheldFriendly" content="true">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <title>Доставка и оплата</title>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate_css/animate.min.css">
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap/bootstrap-extend.min.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet"  href="css/responsive.css">
-
     <!-- fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <!-- fonts -->
-
 </head>
-
-<body>    
-    <!-- nav -->
-    <div class="container-fluid top-menu animated slideInDown">
+<body>
+<!-- nav -->
+<div class="container-fluid top-menu animated slideInDown">
+    <ul>
+        <li class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></li>
+        <li class="search-container">
+            <form>
+                <input type="text" />
+                <div class="after"></div>
+                <input type="submit" />
+            </form>
+        </li>
+        <li><a href="aboutus.html">О нас</a></li>
+        <li><a href="delivery.html">Доставка и оплата</a></li>
+        <li><a href="shares.html">Акции</a></li>
+        <li><a href="firmware.html">Прошивки</a></li>
+        <li class="fright shopping">
+            <div class="kyzyluved">
+                <p>4</p>
+            </div>
+            <span><img src="images/shopping-basket.png" alt=""></span><a>1 250 р.</a>
+        </li>
+        <li class="fright answers">
+            <span><img src="images/write.png" alt=""></span><a>Вопрос по гарантии</a>
+        </li>
+        <li class="fright call">
+            <span><img src="images/telephone.png" alt=""></span>
+            <a>
+                <div class="freecall">
+                    <p>
+                        по России бесплатно
+                        <x></x>
+                    </p>
+                </div>
+                8 800 555-88-69
+            </a>
+        </li>
+        <li class="fright mmenu">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            <a>Меню</a>
+        </li>
+    </ul>
+</div>
+<!-- nav -->
+<!-- sidebar -->
+<div class="left-menu animated slideInLeft">
+    <ul>
+        <li><a href="">КАТАЛОГ ТОВАРОВ</a></li>
+        <li>
+            <a href="#"  class="scroll-link" data-id="menu11">
+                <div><img src="images/record.png" alt=""></div>
+                Цифровые<br> приставки
+            </a>
+        </li>
+        <li>
+            <a href="#" class="scroll-link" data-id="menu12">
+                <div><img src="images/remote-control-2.png" alt=""></div>
+                Аксессуары для приставок
+            </a>
+        </li>
+        <li>
+            <a href="#"  class="scroll-link" data-id="menu13">
+                <div><img src="images/antena.png" alt=""></div>
+                Антенны
+            </a>
+        </li>
+        <li>
+            <a href="#"  class="scroll-link" data-id="menu14">
+                <div><img src="images/usb-cable.png" alt=""></div>
+                Шнуры<br> и кабели
+            </a>
+        </li>
+    </ul>
+    <div class="socialleft">
+        <p>Мы в соц. сетях</p>
         <ul>
-            <li class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></li>
-            <li class="search-container">
-                <form>
-                  <input type="text" />
-                  <div class="after"></div>
-                  <input type="submit" />
-                </form>    
-            </li>
-            <li><a href="aboutus.html">О нас</a></li>
-            <li><a href="delivery.html">Доставка и оплата</a></li>
-            <li><a href="shares.html">Акции</a></li>            
-            <li><a href="firmware.html">Прошивки</a></li>
-
-            
-            
-            <li class="fright shopping">
-               <div class="kyzyluved"><p>4</p></div>
-                <span><img src="images/shopping-basket.png" alt=""></span><a>1 250 р.</a>
-            </li>
-            <li class="fright answers">
-                <span><img src="images/write.png" alt=""></span><a>Вопрос по гарантии</a>
-            </li>
-            <li class="fright call">
-                   <span><img src="images/telephone.png" alt=""></span>
-                  <a> <div class="freecall"><p>по России бесплатно<x></x></p></div>
-                   8 800 555-88-69
-               </a>
-            </li>
-            <li class="fright mmenu">
-                <i class="fa fa-bars" aria-hidden="true"></i>
-                <a>Меню</a>
-            </li>
+            <li><a href="#"><img src="images/vk-social-network-logo.png" alt=""></a></li>
+            <li><a href="#"><img src="images/facebook-letter-logo.png" alt=""></a></li>
+            <li><a href="#"><img src="images/odnoklassniki-logo.png" alt=""></a></li>
         </ul>
     </div>
-    <!-- nav -->
-
-    <!-- sidebar -->
-    <div class="left-menu animated slideInLeft">
-         <ul>
-             <li><a href="">КАТАЛОГ ТОВАРОВ</a></li>
-             <li><a href="#"  class="scroll-link" data-id="menu11"><div><img src="images/record.png" alt=""></div>Цифровые<br> приставки</a></li>
-             <li><a href="#" class="scroll-link" data-id="menu12"><div><img src="images/remote-control-2.png" alt=""></div>Аксессуары для приставок</a></li>
-             <li><a href="#"  class="scroll-link" data-id="menu13"><div><img src="images/antena.png" alt=""></div>Антенны</a></li>
-             <li><a href="#"  class="scroll-link" data-id="menu14"><div><img src="images/usb-cable.png" alt=""></div>Шнуры<br> и кабели</a></li>
-         </ul>
-         <div class="socialleft">
-             <p>Мы в соц. сетях</p>
-             <ul>
-                 <li><a href="#"><img src="images/vk-social-network-logo.png" alt=""></a></li>
-                 <li><a href="#"><img src="images/facebook-letter-logo.png" alt=""></a></li>
-                 <li><a href="#"><img src="images/odnoklassniki-logo.png" alt=""></a></li>
-             </ul>
-         </div>
+</div>
+<div class="bodycontent">
+    <div class="alevel1">
+        <div class="topway">
+            <a href="index.html">Главная</a>
+            <i class="fa fa-circle" aria-hidden="true"></i>
+            <p>Акции и бонусная система</p>
+        </div>
+        <h1 class="headh1">Доставка и оплата</h1>
+        <div class="clearfix"></div>
     </div>
-    
-    <div class="bodycontent">
-        <div class="alevel1">
-           <div class="topway">
-               <a href="index.html">Главная</a>
-                <i class="fa fa-circle" aria-hidden="true"></i>
-                <p>Акции и бонусная система</p>
-           </div>
-            <h1 class="headh1">Доставка и оплата</h1>
-
-            <div class="clearfix"></div>
-        </div> 
-        <div class="dlevel1">
-            <h3>Расчет доставки</h3>
-            <h5 class="dctext">Вы можете воспользоваться виджетом для выбора транспортной компании и расчета цены доставки</h5>
-            <div class="maptable">
-              
-               <div class="mapleft">
-               <h2>Курьером</h2>
+    <div class="dlevel1">
+        <h3>Расчет доставки</h3>
+        <h5 class="dctext">Вы можете воспользоваться виджетом для выбора транспортной компании и расчета цены доставки</h5>
+        <div class="maptable">
+            <div class="mapleft">
+                <h2>Курьером</h2>
                 <table>
                     <tr>
                         <td>СТРИЖ</td>
@@ -125,7 +138,7 @@
                         <td>3-4 д.</td>
                         <td>200 р.</td>
                     </tr>
-                </table> 
+                </table>
                 <h2>Самовызовом</h2>
                 <table>
                     <tr>
@@ -148,7 +161,7 @@
                         <td>3-4 д.</td>
                         <td>200 р.</td>
                     </tr>
-                </table> 
+                </table>
                 <h2>Почтой России</h2>
                 <table class="longtable">
                     <tr>
@@ -156,281 +169,236 @@
                         <td>1-3 д.</td>
                         <td>250 р.</td>
                     </tr>
-                </table> 
-               </div>
-               <div class="mapright">
-                   <h2>Доставка в <a>г.Москва</a></h2>
-                   <div class="overlay" onClick="style.pointerEvents='none'"></div>
-                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2390.793732923435!2d45.01050421548197!3d53.18567987994567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4141005c0a8b7e17%3A0x20255fca4ad636a6!2z0J_Rg9C90LrRgiDQstGL0LTQsNGH0LggQm94YmVycnk!5e0!3m2!1sru!2sru!4v1474370831552" width="100%" height="265" frameborder="0" style="border:0" allowfullscreen></iframe>
-               </div>
-               <div class="clearfix"></div>
-               
-
+                </table>
             </div>
-            <div class="dleft">
-                <img src="images/clipboard.png" alt="">
-                <h4>Доставка</h4>
-                <p class="redtext">Стоимость доставки</p>
-                <p>Стоимость зависит от региона доставки,
-подробную информацию вы можете посмотреть на сайте delivery.yandex.ru</p>
-               <p class="redtext">Время доставки</p>
-               <p>По Москве и МО на следующий рабочий день,
-    по регионам в течении 2-х недель</p>
-            </div>
-            <div class="dright">
-                <img src="images/deliveriicon2.png" alt="">
-                <h4>Способы оплаты</h4>
-                <p>Способы оплаты - с помощью карт visa и mastercard,
-а так же с помощью электронных денег</p>
-                
+            <div class="mapright">
+                <h2>Доставка в <a>г.Москва</a></h2>
+                <div class="overlay" onClick="style.pointerEvents='none'"></div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2390.793732923435!2d45.01050421548197!3d53.18567987994567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4141005c0a8b7e17%3A0x20255fca4ad636a6!2z0J_Rg9C90LrRgiDQstGL0LTQsNGH0LggQm94YmVycnk!5e0!3m2!1sru!2sru!4v1474370831552" width="100%" height="265" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
             <div class="clearfix"></div>
         </div>
+        <div class="dleft">
+            <img src="images/clipboard.png" alt="">
+            <h4>Доставка</h4>
+            <p class="redtext">Стоимость доставки</p>
+            <p>Стоимость зависит от региона доставки,
+                подробную информацию вы можете посмотреть на сайте delivery.yandex.ru
+            </p>
+            <p class="redtext">Время доставки</p>
+            <p>По Москве и МО на следующий рабочий день,
+                по регионам в течении 2-х недель
+            </p>
+        </div>
+        <div class="dright">
+            <img src="images/deliveriicon2.png" alt="">
+            <h4>Способы оплаты</h4>
+            <p>Способы оплаты - с помощью карт visa и mastercard,
+                а так же с помощью электронных денег
+            </p>
+        </div>
+        <div class="clearfix"></div>
     </div>
-    
-
-
-
- 
- 
-
-
-
-    <div class="footer-menu animated fadeIn">
-        <footer class="animated slideInUp">
-            <div class="inblock">
-                <img src="images/logo.png" alt="" class="img-responsive footimg footimg1" >
-                <p class="footertext1">Приставки и комплектующие
-для бесплатного цифрового
-телевидения DVB-T2</p>
-            </div>
-            <div class="inblock">
-                <ul>
-                    <li><a href="consoles.html">Цифровые приставки</a></li>
-                    <li><a href="accessories.html">Аксессуары для приставок</a></li>
-                    <li><a href="antennas.html">Антенны</a></li>
-                    <li><a href="cable.html">Шнуры и кабели</a></li>
-                </ul>
-            </div>
-            <div class="inblock">
-                <span><img src="images/telephone.png" alt=""></span><a href="tel:8 800 555-88-69" class="tel">8 800 555-88-69</a>
-                <p class="address">Россия, 127106, г. Москва, ул. Гостиничная д. 5</p>
-                <a href="" class="onthemap">Адрес на карте</a>
-                
-            </div>
-            <div class="inblock incenter">
-              
-                <p>Разработка решения <br> «ГарантПарк»</p>
-          <img src="images/garantpark.png" alt="" class="img-responsive footimg">
-           <a href="" class="decision">О решении</a>
-           
-            </div>
-            
-
-        </footer>
-    </div>
-    <!-- wrapper -->
-
-
-    <div class="zen_popup_bg">
-
-    </div>
-    <div class="zen_popup_nav">
-        <div class="pclose"></div>
-        <div class="overhidden">
+</div>
+<div class="footer-menu animated fadeIn">
+    <footer class="animated slideInUp">
+        <div class="inblock">
+            <img src="images/logo.png" alt="" class="img-responsive footimg footimg1" >
+            <p class="footertext1">Приставки и комплектующие
+                для бесплатного цифрового
+                телевидения DVB-T2
+            </p>
+        </div>
+        <div class="inblock">
+            <ul>
+                <li><a href="consoles.html">Цифровые приставки</a></li>
+                <li><a href="accessories.html">Аксессуары для приставок</a></li>
+                <li><a href="antennas.html">Антенны</a></li>
+                <li><a href="cable.html">Шнуры и кабели</a></li>
+            </ul>
+        </div>
+        <div class="inblock">
+            <span><img src="images/telephone.png" alt=""></span><a href="tel:8 800 555-88-69" class="tel">8 800 555-88-69</a>
+            <p class="address">Россия, 127106, г. Москва, ул. Гостиничная д. 5</p>
+            <a href="" class="onthemap">Адрес на карте</a>
+        </div>
+        <div class="inblock incenter">
+            <p>Разработка решения <br> «ГарантПарк»</p>
+            <img src="images/garantpark.png" alt="" class="img-responsive footimg">
+            <a href="" class="decision">О решении</a>
+        </div>
+    </footer>
+</div>
+<!-- wrapper -->
+<div class="zen_popup_bg">
+</div>
+<div class="zen_popup_nav">
+    <div class="pclose"></div>
+    <div class="overhidden">
         <div class="popupbody">
-        
-                <div class="answerform">
+            <div class="answerform">
                 <img src="images/logogrey.png" alt="">
-                 <h2>Задайте ваш вопрос по гарантии</h2>
-                 
-                 <form action="#">
-                 <br>
-                 <p>Имя</p>
-                 <input type="text" required>
-                 <br>
-                 <br>
-                 <p>Телефон</p>
-                <input class="zen_popup_nav_input ftel" type="text" placeholder=" +7 (xxx)-xxx-xx-xx" required>
-                <br>
-                <br>
-                <p>E-mail</p>
-                 <input type="email" required>
-                 <br>
-                 <br>
-                 <p>Сообщение</p>
-                 <textarea name=""></textarea>
-                 
-                
-                <button class="yellowb popupb" id="closeaf">
-                    Жду звонка
-                </button>
-                </form>   
-                </div>
-                <div class="sel_call_timer">
-                    <img src="images/thanksforanswer.png" alt="">
-                    <h2>Спасибо за вопрос</h2>
-                    <p>Ваша заявка принята. Наш менеджер
-    свяжется с вами в ближайшее время</p>
-                    <div class="lemonline"></div>
+                <h2>Задайте ваш вопрос по гарантии</h2>
+                <form action="#">
                     <br>
-                    <p>контактный номер</p>
-                    <h3>+7 924 555-55-55</h3>
-                </div>
-                
+                    <p>Имя</p>
+                    <input type="text" required>
+                    <br>
+                    <br>
+                    <p>Телефон</p>
+                    <input class="zen_popup_nav_input ftel" type="text" placeholder=" +7 (xxx)-xxx-xx-xx" required>
+                    <br>
+                    <br>
+                    <p>E-mail</p>
+                    <input type="email" required>
+                    <br>
+                    <br>
+                    <p>Сообщение</p>
+                    <textarea name=""></textarea>
+                    <button class="yellowb popupb" id="closeaf">
+                        Жду звонка
+                    </button>
+                </form>
+            </div>
+            <div class="sel_call_timer">
+                <img src="images/thanksforanswer.png" alt="">
+                <h2>Спасибо за вопрос</h2>
+                <p>Ваша заявка принята. Наш менеджер
+                    свяжется с вами в ближайшее время
+                </p>
+                <div class="lemonline"></div>
+                <br>
+                <p>контактный номер</p>
+                <h3>+7 924 555-55-55</h3>
+            </div>
         </div>
         <div class="marina_img">
-          
-           <center>
-            <img src="images/marina.png" alt="" class="img-responsive">
-            <div class="zen_nav_popup_text zen_call_form">
-                <h3>Меня зовут Марина</h3>
-                <p>введите номер и я перезвоню вам за 59 секунд</p>
-                <input class="zen_popup_nav_input ftel" type="text" placeholder=" +7 (xxx)-xxx-xx-xx">
-                
-                <button class="zen_button zen_popup_nav_button">
-                    Жду звонка
-                </button>
-            </div>
-            
-            <div class="zen_nav_popup_text zen_call_timer">
-            <h2>
-                00.59,59
-            </h2>
-            <p>Ждем пока Марина поднимает трубку, что бы соединиться с вами</p>
-                <button>
-                    Перезвонить
-                </button>
-            </div>
+            <center>
+                <img src="images/marina.png" alt="" class="img-responsive">
+                <div class="zen_nav_popup_text zen_call_form">
+                    <h3>Меня зовут Марина</h3>
+                    <p>введите номер и я перезвоню вам за 59 секунд</p>
+                    <input class="zen_popup_nav_input ftel" type="text" placeholder=" +7 (xxx)-xxx-xx-xx">
+                    <button class="zen_button zen_popup_nav_button">
+                        Жду звонка
+                    </button>
+                </div>
+                <div class="zen_nav_popup_text zen_call_timer">
+                    <h2>
+                        00.59,59
+                    </h2>
+                    <p>Ждем пока Марина поднимает трубку, что бы соединиться с вами</p>
+                    <button>
+                        Перезвонить
+                    </button>
+                </div>
             </center>
         </div>
-           
-        </div>
-  </div>
-    <div class="wzen_popup_nav">
-        <div class="wclose"></div>
-        <div class="ovh">
+    </div>
+</div>
+<div class="wzen_popup_nav">
+    <div class="wclose"></div>
+    <div class="ovh">
         <div class="wpopupbody">
             <div class="relfullh">
                 <h2>Корзина</h2>
-            <div class="absh">
-            
-            <div class="widthjuz">
-                <div class="tovary1">
-                   <p class="tovhead">Товары</p>
+                <div class="absh">
+                    <div class="widthjuz">
+                        <div class="tovary1">
+                            <p class="tovhead">Товары</p>
+                        </div>
+                        <div class="kolichestvo1">
+                            <p class="tovhead">Количество</p>
+                        </div>
+                        <div class="sena1">
+                            <p class="tovhead">Цена</p>
+                        </div>
+                        <div class="owiru1">
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="widthjuz">
+                        <div class="tovary11 tovimg1"></div>
+                        <div class="tovary21">
+                            <p class="p1">Приставка для цифрового
+                                телевидения SELENGA HD80
+                            </p>
+                            <p class="p2">450 р/шт</p>
+                        </div>
+                        <div class="kolichestvo1">
+                            <div class="numberpm">
+                                <div class="nbutton nminus"></div>
+                                <input type="text" name="" value="1" class="sumof">
+                                <div class="nbutton nplus"></div>
+                            </div>
+                        </div>
+                        <div class="sena1">
+                            <p class="pricefo">900 p</p>
+                        </div>
+                        <div class="owiru1">
+                            <div class="closelight"></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="widthjuz">
+                        <div class="tovary11 tovimg1"></div>
+                        <div class="tovary21">
+                            <p class="p1">Приставка для цифрового
+                                телевидения SELENGA HD80
+                            </p>
+                            <p class="p2">450 р/шт</p>
+                        </div>
+                        <div class="kolichestvo1">
+                            <div class="numberpm">
+                                <div class="nbutton nminus"></div>
+                                <input type="text" name="" value="1" class="sumof">
+                                <div class="nbutton nplus"></div>
+                            </div>
+                        </div>
+                        <div class="sena1">
+                            <p class="pricefo">900 p</p>
+                        </div>
+                        <div class="owiru1">
+                            <div class="closelight"></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
                 </div>
-                <div class="kolichestvo1">
-                   <p class="tovhead">Количество</p>
+                <!-- end absh -->
+                <br>
+                <div class="othergoods">
+                    <div class="goodstop">
+                        <p>Сопутствующие товары</p>
+                    </div>
+                    <div class="undergood">
+                        <div accesskey="widthjuz2">
+                            <input type="checkbox" id="ch1" class="checkbox">
+                            <div class="underimg uimg1"></div>
+                            <label for="ch1" class="p1 utext">Антенна комнатная SELENGA 101A
+                                с усилителем 5V (ДМВ диапазон)</label>
+                            <p class="uprice">+ 1 000 р.</p>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div accesskey="widthjuz2">
+                            <input type="checkbox" id="ch2" class="checkbox">
+                            <div class="underimg uimg1"></div>
+                            <label for="ch2" class="p1 utext">Антенна комнатная SELENGA 101A
+                                с усилителем 5V (ДМВ диапазон)</label>
+                            <p class="uprice">+ 1 000 р.</p>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="sena1">
-                    <p class="tovhead">Цена</p>
-                </div>  
-                <div class="owiru1">
-                    
-                </div> 
-                <div class="clearfix"></div>  
+                <p class="totaly">Итого: <span>1  950 р.</span></p>
+                <div class="fastorder">
+                    <div class="closefo"></div>
+                    <h3>Быстрый заказ </h3>
+                    <br>
+                    <p>Номер телефона</p>
+                    <input type="text" placeholder="+7 (xxx)-xxx-xx-xx" class="ftel" required>
+                    <button class="yellowb">Заказать</button>
+                </div>
             </div>
-                     
-            <div class="widthjuz">
-                <div class="tovary11 tovimg1"></div>
-                
-                <div class="tovary21">
-                    <p class="p1">Приставка для цифрового
-телевидения SELENGA HD80</p>
-                    <p class="p2">450 р/шт</p>
-                </div>
-                <div class="kolichestvo1">
-                    <div class="numberpm">
-                       <div class="nbutton nminus"></div>
-                       <input type="text" name="" value="1" class="sumof">
-                       <div class="nbutton nplus"></div>
-                   </div>
-                    
-                </div>
-                <div class="sena1">
-                    <p class="pricefo">900 p</p>
-                    
-                </div>  
-                <div class="owiru1">
-                   
-                    <div class="closelight"></div>
-                    
-                </div> 
-                <div class="clearfix"></div>  
-            </div>
-            <div class="widthjuz">
-                <div class="tovary11 tovimg1"></div>
-                
-                <div class="tovary21">
-                    <p class="p1">Приставка для цифрового
-телевидения SELENGA HD80</p>
-                    <p class="p2">450 р/шт</p>
-                </div>
-                <div class="kolichestvo1">
-                    <div class="numberpm">
-                       <div class="nbutton nminus"></div>
-                       <input type="text" name="" value="1" class="sumof">
-                       <div class="nbutton nplus"></div>
-                   </div>
-                    
-                </div>
-                <div class="sena1">
-                    <p class="pricefo">900 p</p>
-                    
-                </div>  
-                <div class="owiru1">
-                   
-                    <div class="closelight"></div>
-                    
-                </div> 
-                <div class="clearfix"></div>  
-            </div>
-
-            
-            </div><!-- end absh -->
-            
-                     
-            <br>
-            <div class="othergoods">
-               <div class="goodstop">
-                   <p>Сопутствующие товары</p>
-               </div>
-               <div class="undergood">
-                   <div accesskey="widthjuz2">
-                        <input type="checkbox" id="ch1" class="checkbox"> 
-                        <div class="underimg uimg1"></div> 
-                        <label for="ch1" class="p1 utext">Антенна комнатная SELENGA 101A
-    с усилителем 5V (ДМВ диапазон)</label>
-                        <p class="uprice">+ 1 000 р.</p> 
-                        <div class="clearfix"></div> 
-                   </div>
-                   
-                   <div accesskey="widthjuz2">
-                        <input type="checkbox" id="ch2" class="checkbox"> 
-                        <div class="underimg uimg1"></div> 
-                        <label for="ch2" class="p1 utext">Антенна комнатная SELENGA 101A
-    с усилителем 5V (ДМВ диапазон)</label>
-                       <p class="uprice">+ 1 000 р.</p> 
-                       <div class="clearfix"></div> 
-                   </div>
-                </div>  
-            </div>
-                    <p class="totaly">Итого: <span>1  950 р.</span></p>
-                     
-        <div class="fastorder">
-           <div class="closefo"></div>
-            <h3>Быстрый заказ </h3>
-            <br>
-            <p>Номер телефона</p>
-            
-            <input type="text" placeholder="+7 (xxx)-xxx-xx-xx" class="ftel" required>        
-            <button class="yellowb">Заказать</button>
-            
-        </div>
-
-        </div>
-
-             
             <div class="relbottom">
                 <button class="fastb">Быстрый заказ</button>
                 <button class="decor">Оформление</button>
@@ -438,7 +406,6 @@
         </div>
         <div class="wdecor">
             <h2>Оформление заказа</h2>
-            
             <p class="goback"><span><img src="images/arrow.png" alt=""></span> Вернуться в корзину</p>
             <div class="wfully">
                 <div class="halfp">
@@ -449,7 +416,6 @@
                     <p>Телефон</p>
                     <input type="text" class="ftel" placeholder="+7 (xxx)-xxx-xx-xx">
                 </div>
-            
             </div>
             <h5>Оплата</h5>
             <ul class="radio">
@@ -461,7 +427,6 @@
                     <h5>Доставка в <a>г.Москва</a></h5>
                 </div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2390.793732923435!2d45.01050421548197!3d53.18567987994567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4141005c0a8b7e17%3A0x20255fca4ad636a6!2z0J_Rg9C90LrRgiDQstGL0LTQsNGH0LggQm94YmVycnk!5e0!3m2!1sru!2sru!4v1474370831552" width="100%" height="265" frameborder="0" style="border:0" allowfullscreen></iframe>
-                
             </div>
             <br>
             <hr>
@@ -479,7 +444,6 @@
                     <p>Кв/Офис</p>
                     <input type="text">
                 </div>
-            
             </div>
             <div class="wfully">
                 <p>Комментарий к заказу</p>
@@ -493,41 +457,35 @@
                 <img src="images/thanksfororder.png" alt="">
                 <h2>Спасибо за заказ</h2>
                 <p>Ваш заказ оформлен, наш менеджер
-вам перезвонит для подтверждения заказа.</p>
+                    вам перезвонит для подтверждения заказа.
+                </p>
                 <h4>Номер заказа: 23456</h4>
                 <div class="lemonline"></div>
                 <br>
                 <p>контактный номер</p>
                 <h3>+7 924 555-55-55</h3>
-            </div>  
+            </div>
         </div>
         <!-- не можем принять заказ. -->
         <div class="notordertime">
             <div class="sel_call_timer3">
                 <img src="images/logogrey.png" alt="">
                 <h2>Извините, но мы не можем<br>
-принять заказ.</h2>
+                    принять заказ.
+                </h2>
                 <div class="lemonline"></div>
                 <br>
                 <p>Мы работаем</p>
                 <h3><span>с</span> 10:00 <span>до</span> 23:00</h3>
-            </div>  
+            </div>
         </div>
-     
-        </div>
-     
-    </div>      
-
-
+    </div>
+</div>
 </body>
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
-
 <script src="js/jquery/jquery.min.js"></script>
 <script src="js/custom_scrip.js"></script>
 <script src="js/ucustom.js"></script>
 <script src="js/mask.js"></script>
 <script src="js/bootstrap/bootstrap.min.js"></script>
-
-
 </html>
